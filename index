@@ -1,32 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
+
 <head>
-  <title>Dashboard - Proyecto Analytics</title>
-  <meta charset="UTF-8">
-  <style>
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #f4f6f9;
-    }
-    h1 {
-      text-align: center;
-      padding: 20px;
-    }
-    iframe {
-      display: block;
-      margin: 0 auto;
-      width: 90%;
-      height: 800px;
-      border: none;
-    }
-  </style>
+<meta charset="UTF-8">
+<title>Dashboard - Estrategia Comercial</title>
+
+<style>
+
+body{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#f4f6f9;
+}
+
+.header{
+    text-align:center;
+    padding:30px;
+}
+
+.header h1{
+    margin-bottom:10px;
+}
+
+.header p{
+    color:#555;
+}
+
+.dashboard-container{
+    width:95%;
+    margin:auto;
+}
+
+iframe{
+    width:100%;
+    height:900px;
+    border:none;
+}
+
+.footer{
+    text-align:center;
+    padding:20px;
+    color:#777;
+    font-size:14px;
+}
+
+</style>
+
 </head>
 
 <body>
-  <h1>Impacto de la Estrategia Comercial</h1>
 
-  <iframe src="AQUÍ_PEGA_TU_LINK_DE_LOOKER_EMBED"></iframe>
+<div class="header">
+
+<h1>Impacto de la Estrategia Comercial</h1>
+
+<p>
+Este dashboard analiza el comportamiento de las campañas de contacto y su relación
+con la conversión de clientes, permitiendo identificar patrones clave en la efectividad
+de la estrategia comercial.
+</p>
+
+</div>
+
+<div class="dashboard-container">
+
+<iframe src="https://lookerstudio.google.com/embed/reporting/263861ee-64c6-456e-b402-888a63ac146b/page/6HlqF"
+allowfullscreen
+sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
+</iframe>
+
+</div>
+
+<div class="footer">
+
+Proyecto de Visualización y Storytelling
+
+</div>
 
 </body>
+
 </html>
