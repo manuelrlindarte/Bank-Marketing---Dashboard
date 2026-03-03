@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard - Proyecto Analytics</title>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+    }
+    h1 {
+      text-align: center;
+      padding: 20px;
+    }
+    iframe {
+      display: block;
+      margin: 0 auto;
+      width: 90%;
+      height: 800px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Impacto de la Estrategia Comercial</h1>
+
+  <iframe src="AQUÍ_PEGA_TU_LINK_DE_LOOKER_EMBED"></iframe>
+
+</body>
+</html>
